@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app1 import views
+admin.site.site_header = "Bharat"
+admin.site.site_title = "Global Inter Limeted"
+admin.site.index_title = "Welcome to Global Inter Limeted"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
