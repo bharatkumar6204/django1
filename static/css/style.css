@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#0F172A ;
+    
+    height: 65px;
+    
+}
+.log i{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.log a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.box a{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.box a:hover{
+    background-color: orangered;
+}
+.persion{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.persion a{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
