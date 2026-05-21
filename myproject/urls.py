@@ -24,4 +24,5 @@ admin.site.index_title = "Welcome to Global Inter Limeted"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('contact/', views.contact, name='contact'),
 ]

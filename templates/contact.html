@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>this is contact page </h1>
+    {% if cars|length < 5 %}
+    <h1>condition true </h1>
+
+    {% else %}
+    <h1>condition false </h1>
+
+    {% endif %}
     
 </body>
 </html>
