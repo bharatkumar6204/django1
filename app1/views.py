@@ -2,7 +2,9 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    context ={
-        'name':'bharat','age':23, 'course': 'python full stack' # pass data to template
+    my_dict = {
+        'compnay': 'Toyota',
+        'owener': 'bharat',
+        'cars':['toyota avalon','toyota camry','toyota corolla','toyota fortuner']
     }
-    return render(request, 'home.html',context)
+    return render(request, 'home.html',my_dict)

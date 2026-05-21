@@ -29,9 +29,18 @@
         </div>
     </div>
     <div class="hero">
-        <h1>wel come to home page</h1>
-       {{name}}
-       {{age}}
+        <h1>This is home page</h1>
+        <h1> {{compnay}}</h1>
+        <h1>{{owener}}</h1>
+
+        {% for i in cars %} <!-- for loop use -->
+        <h1>{{forloop.counter0 }} {{i}}</h1>
+
+         {% endfor %} 
+    
+
+
+
     </div>
     
 </body>
